@@ -1,0 +1,8 @@
+q20xmlcss
+{width: 100%;}
+heading
+{font-size:40px;}
+heading,name,id,dept,sub
+{display:block;}
+name
+{font-size:25px; font-weight:bold;}

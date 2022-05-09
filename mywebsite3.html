@@ -1,0 +1,135 @@
+<html>
+<head>
+<style>
+img{
+height:250px;
+width:250px;}
+#profile{
+text-align:center;
+}
+
+
+#navlist{
+overflow:hidden;
+background-color:#0074D9;
+}
+#navlist a{
+float:right;
+display:block;
+color:#f2f2f2;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+font-size:17px;
+}
+#navlist a:hover{
+background-color:red;
+color:black;
+}
+#navlist b{
+margin-top:4px;
+padding:8px 12px;
+color:lime;
+float:left;
+font-size:45px;
+}
+.scrollable b{
+font-family:'Special Elite',cursive;
+font-size:50px;
+}
+.content{
+padding:16px;
+}
+.sticky{
+position:fixed;
+top:0;
+width:100%;
+} 
+</style>
+</head>
+
+<body style="background-color:black;">
+<div id="profile">
+<h1 style="font family:Italic ;color:white">SPORTS GALAXY</h1>
+<img src="C:\Users\USER\Desktop\html web image\basket.jpg">
+
+<marquee behaviour="slide" direction="top"
+bgcolor="yellow">
+<a href="q6.html">NEW STUDENT REGISTERATION LINK</a>
+</marquee>
+
+
+
+<div id="navlist">
+<a href="contact.html">Contact</a>
+<a href="organizer.html">Organizer</a>
+<a href="about.html">About</a>
+<a href="mywebsite2.html">Home</a>
+</div>
+
+
+
+<div class="scrollable"
+style="padding:15px 15px 4500px;">
+
+</div>
+<script>
+window.onscroll=function() {myFunction()}
+var navlist=document.getElementById("navlist");
+var sticky=navlist.offsetTop;
+
+function myFunction(){
+if(window.pageYOffset>=sticky)
+{
+navlist.classList.add("sticky")
+}
+
+}
+</script>
+<body style="background-color:black;">
+
+<marquee behavior="slide" direction="" height="20" bgcolor="green" loop="2">
+<a href="basketregis.html">REGISTER NOW FOR BASKETBALL</a>
+</marquee>
+<img src="C:\Users\USER\Desktop\html web image\bb2.jpg" align="right" >
+<li style="font-style: italic; color:white; font-weight:bold;">
+<ul>
+<li>INTRAMURAL BASKETBALL TOURNAMENT </li>
+<li>DBTI BASKETBALL TOURNAMENT</li>
+<li>BOSCO SPARTANS BASKETBALL TOURNMENT</li>
+</ul>
+
+<marquee behavior="slide" direction="" height="20" bgcolor="green" loop="2">
+<a href="footballregis.html">REGISTER NOW FOR FOOT BALL </marquee>
+<img src="C:\Users\USER\Desktop\html web image\fb.jpg" align="right" >
+<li style="font-style: italic; color:red; font-weight:bold;">
+<ul>
+<li>INTRAMURAL FOOTBALL TOURNAMENT </li>
+<li>DBTI FOOTBALL TOURNAMENT</li>
+<li>BOSCO SPARTANS FOOTBALL TOURNMENT</li>
+</ul>
+
+<marquee behavior="slide" direction="" height="20" bgcolor="green" loop="2">
+<a href="badmintonregis.html">REGISTER NOW FOR BADMINTON</a>
+</marquee>
+<img src="C:\Users\USER\Desktop\html web image\badminton1.jpg" align="right" >
+
+<li style="font-style: italic; color:white; font-weight:bold;">
+<ul>
+<li>INTRAMURAL BADMINTON TOURNAMENT </li>
+<li>DBTI BADMINTON TOURNAMENT</li>
+<li>BOSCO BADMINTON TOURNMENT</li>
+
+<marquee behavior="slide" direction="" height="20" bgcolor="green" loop="2">
+<a href="volleyregis.html">REGISTER NOW FOR VOLLEYBALL</a>
+</marquee>
+<img src="C:\Users\USER\Desktop\html web image\volley.jpg" align="right" >
+<li style="font-style: italic; color:white; font-weight:bold;">
+<ul>
+<li>INTRAMURAL VOLLEYBALL TOURNAMENT </li>
+<li>DBTI VOLLEYBALL TOURNAMENT</li>
+<li>BOSCO VOLLEYBALL TOURNMENT</li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<html>
+<head>
+<title> Registration</title>
+
+</head>
+<body>
+<script>
+function valid()
+{
+var name=document.myform.name.value; 
+var email=document.myform.emil.value; 
+var ph=document.myform.ph.value;
+var pass=document.myform.pass.value;
+if(name==null||name=="")
+{
+window.alert("enter name");
+return false;
+}
+
+if(email==null||email=="")
+{
+window.alert("enter mail");
+return false;
+}
+
+if(pass.length<6)
+{
+window.alert("check your password");
+return false;
+}
+}
+</script>
+</body>
+<body>
+<form name="myform" method="post" onsubmit="return valid()">
+Name:<input type="text" name="name"><br><br>
+E-mail:<input type="text" email="email">
+Password:<input type="password" name="pass"><br>
+<input type="submit" value="register" onclick="getconfirmation();"/>
+</form>
+</body>
+</html>
